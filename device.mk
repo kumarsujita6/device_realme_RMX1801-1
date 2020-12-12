@@ -473,3 +473,7 @@ PRODUCT_BOOT_JARS += \
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     GCamGo
+
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
