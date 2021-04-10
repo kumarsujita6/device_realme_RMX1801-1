@@ -193,10 +193,12 @@ PRODUCT_PACKAGES += \
     gralloc.sdm660 \
     hwcomposer.sdm660 \
     libdisplayconfig \
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
     libgui_vendor \
     libhwc2on1adapter \
     libhwc2onfbadapter \
-    libqdMetaData.system \
+    libqdMetaData.vendor \
     libtinyxml \
     libvulkan \
     memtrack.sdm660 \
@@ -456,7 +458,8 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libaacwrapper \
-    libnl
+    libnl \
+    libstagefright_enc_common
 
 # Qcom
 PRODUCT_USES_QCOM_HARDWARE := true
