@@ -1,1 +1,2 @@
 allow gmscore_app hal_memtrack_default:binder { call };
+dontaudit gmscore_app hal_memtrack_hwservice:hwservice_manager { find };
