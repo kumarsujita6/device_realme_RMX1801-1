@@ -205,8 +205,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.3.vendor
 
 # Doze
-PRODUCT_PACKAGES += \
-    RealmeParts
+#PRODUCT_PACKAGES += \
+#   RealmeParts
 
 # DRM
 PRODUCT_PACKAGES += \
