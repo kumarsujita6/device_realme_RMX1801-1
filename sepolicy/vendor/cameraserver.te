@@ -1,1 +1,2 @@
+dontaudit cameraserver default_android_hwservice:hwservice_manager { find };
 binder_call(cameraserver, mediacodec)
